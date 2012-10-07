@@ -192,6 +192,7 @@ EGifOpen(void *userData,
  *****************************************************************************/
 void
 EGifSetGifVersion(const char *Version) {
+    strncpy(GifVersionPrefix, GIF_STAMP, GIF_STAMP_LEN);
     strncpy(GifVersionPrefix + GIF_VERSION_POS, Version, 3);
 }
 

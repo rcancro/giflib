@@ -10,6 +10,10 @@ Short-form summary of recent news:
   The documentation has been updated and improved.
   EGifSpew() is now thread-safe.
 
+Version 4.2.1
+=============
+* A bug that made EGifSetGifVersion() ineffective has been fixed.
+
 Version 4.2.0
 =============
 
