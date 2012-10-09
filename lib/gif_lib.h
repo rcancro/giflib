@@ -22,7 +22,7 @@ extern "C" {
 
 #define GIFLIB_MAJOR 4
 #define GIFLIB_MINOR 2
-#define GIFLIB_RELEASE 0
+#define GIFLIB_RELEASE 1
 
 #define GIF_ERROR   0
 #define GIF_OK      1
