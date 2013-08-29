@@ -1,14 +1,13 @@
 			GIFLIB NEWS
 
 Short-form summary of recent news:
-  Code updated to c99 conformance, no warnings under GCC 4.6.1.
-  Code is Coverity clean and cppcheck clean.
-  GIF version to write is now computed at write time from extension blocks.
-  Six obsolete utilities have been removed to lessen dependencies.
-  A regression-test suite has been added to the distribution.
-  Some helper functions for the utilities have moved out of the core library.
-  The documentation has been updated and improved.
-  EGifSpew() is now thread-safe.
+ * Minor fixes to build recipe and error reporting backported from 5.x line.
+
+Version 4.2.2
+=============
+* Added -no-undefined option for MSYS builds.
+* Backported a minor fix to error reporting from the 5.x branch:
+  D_GIF_ERR_NO_SCRN_DSCR is now set when appropriate.
 
 Version 4.2.1
 =============
