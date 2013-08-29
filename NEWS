@@ -8,6 +8,7 @@ Version 4.2.2
 * Added -no-undefined option for MSYS builds.
 * Backported a minor fix to error reporting from the 5.x branch:
   D_GIF_ERR_NO_SCRN_DSCR is now set when appropriate.
+* Backported the 5.x fix for code table overflow.
 
 Version 4.2.1
 =============
