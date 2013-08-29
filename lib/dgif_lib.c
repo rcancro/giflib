@@ -149,6 +149,7 @@ DGifOpenFileHandle(int FileHandle) {
         fclose(f);
         free((char *)Private);
         free((char *)GifFile);
+	*Error = D_GIF_ERR_NO_SCRN_DSCR;
         return NULL;
     }
 
