@@ -1,7 +1,11 @@
 			GIFLIB NEWS
 
 Short-form summary of recent news:
- * Minor fixes to build recipe and error reporting backported from 5.x line.
+ * Reverted a backport that shouldn't have been done.
+
+Version 4.2.3
+=============
+* Reverted a backport that shouldn't have been done.
 
 Version 4.2.2
 =============
