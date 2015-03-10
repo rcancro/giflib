@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://giflib.sourceforge.net/"
   s.license      = 'LGPL'
   s.author       = { "Eric S. Raymond" => "esr@thyrsus.com" }
-  s.source       = { :git => "git@github.com:rcancro/giflib.git", :tag => s.version.to_s }
+  s.source       = { :git => "git@github.com:rcancro/giflib.git" }
 
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
