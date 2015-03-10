@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://giflib.sourceforge.net/"
   s.license      = 'LGPL'
   s.author       = { "Eric S. Raymond" => "esr@thyrsus.com" }
-  s.source       = :git => "git@github.com:rcancro/giflib.git", tag :=> '5.1.2'
+  s.source       = { :git => "git@github.com:rcancro/giflib.git", :tag => '5.1.2' }
   s.requires_arc = true
 
   s.source_files = 'lib/*.{c,h}'
